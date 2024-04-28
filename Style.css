@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url(./img.jpg);
+    background-size: cover;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.main{
+    border: 3px solid rgb(212, 24, 24);
+    width: 25%;
+    height: 550px;
+    text-align: center;
+    margin: auto;
+    background-image: url(./img.jpg);
+}
+
+button{
+font-size: xx-large;
+color: white;
+background-color: rgb(10, 8, 10);
+border-radius: 180px;
+width: 80px;
+height: 75px;
+    
+}
+.D{
+    background-color: blue;
+
+}
+.same{
+    background-color:rgb(220, 14, 14);
+
+}
+input{
+    width: 98%;
+    height: 50px;
+    background-image: url(./img.jpg);
+    border: 2px solid red;
+    color: rgb(229, 13, 13);
+font-size: xx-large;
+
+    
+}
+button:hover{
+    background-color: rgb(128, 0, 124);
+    color: white;
+}
+@media only screen and (max-width: 350px){
+
+    .main{
+        border: 3px solid rgb(212, 24, 24);
+        width: 50%;
+        height: 530px;
+        
+    }
+    
+    button{
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 100px;
+        
+    }
+}
+@media only screen and (min-width: 330px){
+
+    .main{
+        border: 3px solid rgb(212, 24, 24);
+        width: 95%;
+        height: 500px;
+        
+    }
+    
+    button{
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 100px;
+    width: 70px;
+    height: 65px;
+        
+    }
+}
+@media only screen and (min-width: 400px){
+
+    .main{
+        border: 3px solid rgb(212, 24, 24);
+        width: 95%;
+        height: 500px;
+        
+    }
+    
+    button{
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 100px;
+    width: 70px;
+    height: 65px;
+        
+    }
+}
+
+@media only screen and (min-width: 650px){
+
+    .main{
+        border: 3px solid rgb(212, 24, 24);
+        width: 80%;
+        height: 530px;
+        
+    }
+    
+    button{
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 100px;
+        
+    }
+}
+@media only screen and (min-width: 750px){
+
+    .main{
+        border: 3px solid rgb(212, 24, 24);
+        width: 25%;
+        height: 530px;
+        
+    }
+    
+    button{
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 100px;
+        
+    }
+}
